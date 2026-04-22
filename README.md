@@ -1,25 +1,85 @@
-# 🧠 AI IQ Test
+# 🧠 AI IQ Test (Terminal-Based)
 
-## Features
-- 4 categories: Math, Pattern Recognition, Verbal & Logical Reasoning
-- Adaptive difficulty (Easy / Medium / Hard)
-- Countdown timer per question
-- IQ score estimate with category breakdown
-- Wrong answer review at the end
+An intelligent AI-powered IQ testing system built using Python and the Groq API.  
+This application dynamically generates questions, adapts difficulty in real-time, and provides detailed performance insights.
 
-## Tech Used
-- Python
-- Groq API (Llama 3.3-70b)
+---
 
-## Setup
+## 🚀 Features
 
-1. Clone the repo
-2. Install dependencies:
-   pip install groq python-dotenv
-3. Create a `.env` file in the project folder:
-   GROQ_API_KEY=your-key-here
-4. Run:
-   python iq_test.py
+- 🧠 AI-generated questions using Groq (Llama 3.3)
+- 📊 4 categories:
+  - Math & Numbers
+  - Pattern Recognition
+  - Verbal Reasoning
+  - Logical Deduction
+- 🎯 Adaptive difficulty (Easy → Medium → Hard)
+- ⏱️ Countdown timer with visual progress bar
+- 📈 IQ score estimation (based on accuracy + speed)
+- 📊 Detailed results dashboard
+- 🧩 Category-wise performance analysis
+- 🤖 AI insights:
+  - Strong areas
+  - Weak areas
+  - Slow response categories
+- ❌ Wrong answer review with explanations
+- 🎨 Clean and interactive terminal UI
 
-## Get a free Groq API key
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Groq API (Llama 3.3-70B)  
+- python-dotenv  
+- threading  
+
+---
+
+## 🔑 Get Groq API Key
+
 https://console.groq.com
+
+---
+
+## 🧠 How It Works
+
+1. User selects difficulty and categories  
+2. AI generates unique IQ questions  
+3. Timer starts for each question  
+4. User answers within time limit  
+5. System tracks:
+   - Accuracy  
+   - Response time  
+   - Performance  
+6. Difficulty adjusts automatically  
+7. Final dashboard shows:
+   - Estimated IQ  
+   - Category breakdown  
+   - AI insights  
+
+---
+
+
+## 📌 Future Improvements
+
+- Web version (React + FastAPI)
+- User login system
+- Database for test history
+- Graph-based analytics
+- Personalized AI question generation
+
+---
+
+## 💡 Use Cases
+
+- IQ practice and brain training  
+- Educational tools  
+- AI-based assessment systems  
+- EdTech projects  
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning purposes.
